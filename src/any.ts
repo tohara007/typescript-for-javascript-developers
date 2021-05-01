@@ -17,3 +17,10 @@ axios.get(url).then(function (response) {
     data = response.data
     console.log(data);
   });
+// こっちでもコールバックできるよ
+axios.get(url)
+  .then((response) => {
+    let data: Articles[];
+    data = response.data
+    console.log(data);
+  });
