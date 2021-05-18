@@ -2,7 +2,7 @@ export {};
 
 // classの定義
 class Person {
-  // classの中のデータの型定義
+  // classのメンバー変数の宣言時に、データの型定義を行う
   name: string;
   age: number;
   // インスタンス作成時に実行されるメソッド
